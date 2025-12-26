@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__firecrawl__firecrawl_search",
+      "mcp__firecrawl__firecrawl_scrape",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(tree:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(python -m black:*)",
+      "Bash(python -m ruff check:*)",
+      "Bash(python -m mypy:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m py_compile:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
